@@ -186,7 +186,7 @@ ol {
   justify-content: flex-end;
   gap: 26px;
   width: 399px;
-  height: 534px;
+  min-height: 534px;
 }
 
 .title {
@@ -210,6 +210,8 @@ ol {
   gap: 30px;
   height: 100%;
   overflow-y: auto;
+  width: 399px;
+  height: 298px;
 }
 
 .content__list-item {
@@ -272,8 +274,8 @@ ol {
 }
 
 .content__card-link:active {
-  background-color: rgba(84, 80, 80, 1);
   text-decoration: none;
+  background-color: rgba(84, 80, 80, 1);
 }
 
 .content__card-link:focus {
@@ -289,6 +291,7 @@ ol {
 }
 
 .button {
+  height: 34px;
   border: 1px solid #fff;
   color: #fff;
   font-family:
@@ -297,7 +300,6 @@ ol {
   font-weight: 700;
   font-size: 18px;
   background-color: transparent;
-  height: 34px;
 }
 
 .more-button {
@@ -316,8 +318,8 @@ ol {
 }
 
 .button:active {
-  background-color: rgba(84, 80, 80, 1);
   text-decoration: none;
+  background-color: rgba(84, 80, 80, 1);
 }
 
 .button:focus-visible {
