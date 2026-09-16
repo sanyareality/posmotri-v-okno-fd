@@ -208,7 +208,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  height: 100%;
   overflow-y: auto;
   width: 399px;
   height: 298px;
